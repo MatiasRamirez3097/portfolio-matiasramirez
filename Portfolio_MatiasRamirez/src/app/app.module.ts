@@ -8,6 +8,8 @@ import { LogoComponent } from './components/logo/logo.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExpComponent } from './components/exp/exp.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,7 @@ import { ExpComponent } from './components/exp/exp.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
