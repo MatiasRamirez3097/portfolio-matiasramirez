@@ -8,7 +8,10 @@ import { LogoComponent } from './components/logo/logo.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExpComponent } from './components/exp/exp.component';
 
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/skills/skills.component';
 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { ExpComponent } from './components/exp/exp.component';
     HeaderComponent,
     LogoComponent,
     AboutComponent,
-    ExpComponent
+    ExpComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

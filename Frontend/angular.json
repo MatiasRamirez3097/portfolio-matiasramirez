@@ -105,5 +105,7 @@
       }
     }
   },
-  "defaultProject": "Portfolio_MatiasRamirez"
+  "cli": {
+    "analytics": "3bdc6451-0d81-43e2-a390-c3843d1278ac"
+  }
 }
