@@ -12,6 +12,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     LogoComponent,
     AboutComponent,
     ExpComponent,
-    SkillsComponent
+    SkillsComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
